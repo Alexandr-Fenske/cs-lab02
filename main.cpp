@@ -18,6 +18,7 @@ cout << "A * B = " << a * b << '\n';
 
 cout << "A / B = " << a / b << '\n';
 
+<<<<<<< HEAD
 int max;
 
         if (a > b) max = a;
@@ -29,6 +30,19 @@ int max;
             else
 
 cout << "MAX = " << max;
+=======
+ 	    int min;
+
+        if (a > b) min = b;
+
+        if (b > a) min = a;
+
+        if (b == a) cout << "A = B";
+
+         else
+
+cout << "MIN = " << min;
+>>>>>>> MIN
 
 return 0;
 }
