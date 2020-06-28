@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main()
+double main()
 {
 cout << "Enter A and B: ";
 
@@ -19,7 +19,11 @@ cout << "A * B = " << a * b << '\n';
 cout << "A / B = " << a / b << '\n';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 int max;
+=======
+double max;
+>>>>>>> double
 
         if (a > b) max = a;
 
