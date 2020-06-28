@@ -12,5 +12,7 @@ cin >> a >> b;
 
 cout << "A + B = " << a + b << '\n';
 
-    return 0;
+cout << "A - B = " << a - b << '\n';
+
+return 0;
 }
